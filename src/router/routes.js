@@ -28,7 +28,8 @@ const routes = [{
             },
             {
                 path: 'zhy', //这里不写‘/’
-                component: Zhy
+                component: Zhy,
+                name: 'zhy'
             },
             {
                 path: 'lsy',
