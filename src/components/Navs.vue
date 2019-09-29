@@ -60,6 +60,6 @@ article {
 }
 
 nav {
-  margin-left: 400px;
+  margin-left: 40px;
 }
 </style>

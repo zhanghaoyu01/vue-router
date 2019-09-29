@@ -14,6 +14,8 @@ import Zhy from '../pages/home/children/zhy.vue';
 
 import Lsy from '../pages/home/children/lsy.vue';
 
+import List from '../pages/list';
+
 
 const routes = [{
         path: '', //路由路径
@@ -54,6 +56,11 @@ const routes = [{
     {
         path: '/mine', //路由路径
         component: Mine //当前路由路径对应的组件
+    },
+    {
+        path: '/list/:id', //用于url携带id  和  查找字符串
+        component: List,
+        name: 'list' //当前路由路径对应的组件
     },
     {
         path: '/error', //路由路径

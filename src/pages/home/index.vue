@@ -29,8 +29,6 @@ export default {
 
 <style lang="stylus" scoped>
     .aside 
-        float right;
-        margin-right 200px;
-        margin-top  -50px;
+        margin-top  50px;
         user-select none;
 </style>
